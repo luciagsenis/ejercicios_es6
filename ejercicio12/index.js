@@ -19,7 +19,7 @@ const mainCharacters = [
 ];
 
 function findArrayIndex(array, text) {
-    return array.findIndex(resource => text === resource)
+    return array.findIndex(resource => text === resource) /* SOLUCIÓN:   return array.indexOf(text);*/
 }
 
 console.log(findArrayIndex(mainCharacters, "Han Solo"))

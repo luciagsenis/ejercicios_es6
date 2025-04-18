@@ -31,3 +31,12 @@ function removeResource(array, text){
 }
 
 console.log(removeResource(mainCharacters, "Anakin"))
+
+/*SOLUCIÓN: 
+const removeItem = (array, text) => {
+  const index = findArrayIndex(array, text);
+  if (index !== -1) {
+    array.splice(index, 1); // Elimina 1 elemento en la posición index
+  }
+  return array;
+}*/

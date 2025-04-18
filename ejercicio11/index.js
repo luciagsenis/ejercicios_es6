@@ -60,3 +60,4 @@ for (const user of users) {
 
 console.log(`Users favorite sounds:`)
 console.log(favoriteSounds) 
+

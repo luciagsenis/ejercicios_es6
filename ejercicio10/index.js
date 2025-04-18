@@ -46,3 +46,4 @@ for (const user of users) {
 }
 const average = totalVolume / totalSounds
 console.log(average)
+
