@@ -46,3 +46,5 @@ const infoStreamers = streamers.filter(streamer => {
     return includeLegends
 })
 console.log(infoStreamers)
+
+
